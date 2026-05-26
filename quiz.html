@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz Interactivo</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="contenido-header">
+
+            <h1>🧠 Quiz Interactivo</h1>
+
+            <p>
+                Responde las preguntas sobre soporte técnico remoto
+            </p>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="card">
+
+            <h2>Pregunta 1</h2>
+
+            <p><strong>¿Qué herramienta sirve para control remoto?</strong></p>
+
+            <button onclick="respuesta(this,true)">AnyDesk</button>
+            <button onclick="respuesta(this,false)">Paint</button>
+            <button onclick="respuesta(this,false)">Excel</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 2</h2>
+
+            <p><strong>¿Qué se necesita para conexión remota?</strong></p>
+
+            <button onclick="respuesta(this,true)">Internet</button>
+            <button onclick="respuesta(this,false)">Cuaderno</button>
+            <button onclick="respuesta(this,false)">Mousepad</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 3</h2>
+
+            <p><strong>¿Qué programa es de acceso remoto?</strong></p>
+
+            <button onclick="respuesta(this,true)">TeamViewer</button>
+            <button onclick="respuesta(this,false)">Spotify</button>
+            <button onclick="respuesta(this,false)">Netflix</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 4</h2>
+
+            <p><strong>¿Qué permite el soporte remoto?</strong></p>
+
+            <button onclick="respuesta(this,true)">Ayudar a distancia</button>
+            <button onclick="respuesta(this,false)">Cocinar</button>
+            <button onclick="respuesta(this,false)">Editar videos</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 5</h2>
+
+            <p><strong>¿Qué herramienta usa Google?</strong></p>
+
+            <button onclick="respuesta(this,true)">Chrome Remote Desktop</button>
+            <button onclick="respuesta(this,false)">TikTok</button>
+            <button onclick="respuesta(this,false)">Word</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 6</h2>
+
+            <p><strong>¿Qué ayuda a proteger conexiones?</strong></p>
+
+            <button onclick="respuesta(this,true)">Contraseñas fuertes</button>
+            <button onclick="respuesta(this,false)">Apagar monitor</button>
+            <button onclick="respuesta(this,false)">Bajar volumen</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 7</h2>
+
+            <p><strong>¿Qué hace una bitácora?</strong></p>
+
+            <button onclick="respuesta(this,true)">Registrar actividades</button>
+            <button onclick="respuesta(this,false)">Eliminar archivos</button>
+            <button onclick="respuesta(this,false)">Hackear redes</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 8</h2>
+
+            <p><strong>¿Qué tipo de soporte usa llamadas?</strong></p>
+
+            <button onclick="respuesta(this,true)">Soporte telefónico</button>
+            <button onclick="respuesta(this,false)">Control solar</button>
+            <button onclick="respuesta(this,false)">Streaming</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 9</h2>
+
+            <p><strong>¿Qué usa video y audio?</strong></p>
+
+            <button onclick="respuesta(this,true)">Videollamadas</button>
+            <button onclick="respuesta(this,false)">Bloc de notas</button>
+            <button onclick="respuesta(this,false)">Calculadora</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 10</h2>
+
+            <p><strong>¿Qué permite manejar otra PC?</strong></p>
+
+            <button onclick="respuesta(this,true)">Control remoto</button>
+            <button onclick="respuesta(this,false)">Impresora</button>
+            <button onclick="respuesta(this,false)">USB</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 11</h2>
+
+            <p><strong>¿Qué es importante en soporte técnico?</strong></p>
+
+            <button onclick="respuesta(this,true)">Paciencia</button>
+            <button onclick="respuesta(this,false)">Gritar</button>
+            <button onclick="respuesta(this,false)">Ignorar usuarios</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 12</h2>
+
+            <p><strong>¿Qué plataforma sirve para videollamadas?</strong></p>
+
+            <button onclick="respuesta(this,true)">Zoom</button>
+            <button onclick="respuesta(this,false)">Excel</button>
+            <button onclick="respuesta(this,false)">Paint</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 13</h2>
+
+            <p><strong>¿Qué necesita el soporte remoto?</strong></p>
+
+            <button onclick="respuesta(this,true)">Internet</button>
+            <button onclick="respuesta(this,false)">Televisión</button>
+            <button onclick="respuesta(this,false)">Bocinas</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 14</h2>
+
+            <p><strong>¿Qué hace TeamViewer?</strong></p>
+
+            <button onclick="respuesta(this,true)">Control remoto</button>
+            <button onclick="respuesta(this,false)">Editar música</button>
+            <button onclick="respuesta(this,false)">Diseñar ropa</button>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Pregunta 15</h2>
+
+            <p><strong>¿Qué mejora el soporte remoto?</strong></p>
+
+            <button onclick="respuesta(this,true)">Productividad</button>
+            <button onclick="respuesta(this,false)">Desorden</button>
+            <button onclick="respuesta(this,false)">Errores físicos</button>
+
+        </section>
+
+        <center>
+
+            <a href="index.html">
+
+                <button>
+                    ⬅ Volver al Inicio
+                </button>
+
+            </a>
+
+        </center>
+
+    </main>
+
+    <script>
+
+        function respuesta(boton,correcta){
+
+            if(correcta){
+
+                boton.style.background =
+                "#00ff99";
+
+                alert("✅ Correcto");
+
+            }else{
+
+                boton.style.background =
+                "#ff4444";
+
+                alert("❌ Incorrecto");
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
